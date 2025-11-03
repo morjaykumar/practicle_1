@@ -5,8 +5,6 @@ fun main(){
     val array4 = IntArray(5)
     val array5 = intArrayOf(12,10,1,5,18,19)
     val array6 = arrayOf(intArrayOf(1,3),intArrayOf(4,5),intArrayOf(6,7))
-
-
     println("Create Array-1 by using arrayOf() method: ")
     println(array1.joinToString(prefix = "[", postfix = "]"))
     println("\nCreate Array-2 by using Array<>(): ")
@@ -21,8 +19,6 @@ fun main(){
     println(array6.joinToString (prefix = "[", postfix = "]"){
         it.joinToString(prefix = "[", postfix = "]")
     })
-
-
     println("Please enter the size of array:")
     val size = readln().toInt()
     val a = IntArray(size);
@@ -52,11 +48,7 @@ fun main(){
     val manualSorting = bubblesort(a.copyOf())
     println("\nAfter Sorting without built-in function:")
     println(manualSorting.joinToString(prefix = "[", postfix = "]"))
-
-
 }
-
-
 fun bubblesort(arr: IntArray): IntArray{
     val n = arr.size
     for (i in 0 until n){
@@ -69,11 +61,4 @@ fun bubblesort(arr: IntArray): IntArray{
         }
     }
     return arr
-}
-
-
-
-
-
-
 }

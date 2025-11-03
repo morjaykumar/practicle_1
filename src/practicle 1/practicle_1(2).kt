@@ -8,25 +8,25 @@ fun main() {
     var e: Double=c.toDouble()
     println("string to double=$e")
 
-      /*  print("enter any number:")
-        var a = readln().toInt()
-        var b=true
-        for (i in 2..a - 1) {
-            if (a % i == 0) {
+       print("enter any number:")
+        var f = readln().toInt()
+        var g=true
+        for (i in 2..f - 1) {
+            if (f % i == 0) {
 
-                b=false
+                g=false
 
             }
 
 
         }
     print(
-        if(b==true)
+        if(g==true)
         "prime"
         else
         "not prime"
     )
-*/
+
 
 
 }
