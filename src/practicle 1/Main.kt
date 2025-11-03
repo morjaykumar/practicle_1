@@ -1,7 +1,6 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 fun main() {
-   /* val a: Int=12
+    val a: Int=12
     println("integer value:"+a)
     val b: Float=2.5F
     println("float value:"+b)
@@ -18,7 +17,7 @@ fun main() {
     val h:Short=-5
     println("short value:"+h)
     val i: Byte=125
-    println("byte value:"+i) */
+    println("byte value:"+i)
 
     
 
